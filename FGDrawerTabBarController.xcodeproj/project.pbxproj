@@ -1,0 +1,430 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D798E53C1D40904B001A9DE7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D798E53B1D40904B001A9DE7 /* main.m */; };
+		D798E53F1D40904B001A9DE7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D798E53E1D40904B001A9DE7 /* AppDelegate.m */; };
+		D798E5421D40904B001A9DE7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D798E5411D40904B001A9DE7 /* ViewController.m */; };
+		D798E5451D40904B001A9DE7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D798E5431D40904B001A9DE7 /* Main.storyboard */; };
+		D798E5481D40904B001A9DE7 /* FGDrawerTabBarController.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D798E5461D40904B001A9DE7 /* FGDrawerTabBarController.xcdatamodeld */; };
+		D798E54D1D40904B001A9DE7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D798E54B1D40904B001A9DE7 /* LaunchScreen.storyboard */; };
+		D798E57A1D409153001A9DE7 /* CommunityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D798E5661D409153001A9DE7 /* CommunityViewController.m */; };
+		D798E57B1D409153001A9DE7 /* ContactViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D798E5681D409153001A9DE7 /* ContactViewController.m */; };
+		D798E57C1D409153001A9DE7 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D798E56A1D409153001A9DE7 /* HomeViewController.m */; };
+		D798E57D1D409153001A9DE7 /* LeftViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D798E56C1D409153001A9DE7 /* LeftViewController.m */; };
+		D798E57E1D409153001A9DE7 /* SettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D798E56E1D409153001A9DE7 /* SettingViewController.m */; };
+		D798E57F1D409153001A9DE7 /* MMDrawerBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = D798E5721D409153001A9DE7 /* MMDrawerBarButtonItem.m */; };
+		D798E5801D409153001A9DE7 /* MMDrawerController.m in Sources */ = {isa = PBXBuildFile; fileRef = D798E5751D409153001A9DE7 /* MMDrawerController.m */; };
+		D798E5811D409153001A9DE7 /* MMDrawerVisualState.m in Sources */ = {isa = PBXBuildFile; fileRef = D798E5771D409153001A9DE7 /* MMDrawerVisualState.m */; };
+		D798E5821D409153001A9DE7 /* UIViewController+MMDrawerController.m in Sources */ = {isa = PBXBuildFile; fileRef = D798E5791D409153001A9DE7 /* UIViewController+MMDrawerController.m */; };
+		D798E5881D4091B2001A9DE7 /* FGTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = D798E5871D4091B2001A9DE7 /* FGTabBarController.m */; };
+		D798E58C1D409294001A9DE7 /* UIViewController+Navigation.m in Sources */ = {isa = PBXBuildFile; fileRef = D798E58B1D409294001A9DE7 /* UIViewController+Navigation.m */; };
+		D798E58F1D4093C2001A9DE7 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D798E58E1D4093C2001A9DE7 /* DetailViewController.m */; };
+		D798E5911D409499001A9DE7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D798E5901D409499001A9DE7 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D798E5371D40904A001A9DE7 /* FGDrawerTabBarController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FGDrawerTabBarController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D798E53B1D40904B001A9DE7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D798E53D1D40904B001A9DE7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D798E53E1D40904B001A9DE7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D798E5401D40904B001A9DE7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D798E5411D40904B001A9DE7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D798E5441D40904B001A9DE7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D798E5471D40904B001A9DE7 /* FGDrawerTabBarController.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FGDrawerTabBarController.xcdatamodel; sourceTree = "<group>"; };
+		D798E54C1D40904B001A9DE7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D798E54E1D40904B001A9DE7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D798E5651D409153001A9DE7 /* CommunityViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommunityViewController.h; sourceTree = "<group>"; };
+		D798E5661D409153001A9DE7 /* CommunityViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommunityViewController.m; sourceTree = "<group>"; };
+		D798E5671D409153001A9DE7 /* ContactViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactViewController.h; sourceTree = "<group>"; };
+		D798E5681D409153001A9DE7 /* ContactViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactViewController.m; sourceTree = "<group>"; };
+		D798E5691D409153001A9DE7 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		D798E56A1D409153001A9DE7 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		D798E56B1D409153001A9DE7 /* LeftViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftViewController.h; sourceTree = "<group>"; };
+		D798E56C1D409153001A9DE7 /* LeftViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftViewController.m; sourceTree = "<group>"; };
+		D798E56D1D409153001A9DE7 /* SettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingViewController.h; sourceTree = "<group>"; };
+		D798E56E1D409153001A9DE7 /* SettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingViewController.m; sourceTree = "<group>"; };
+		D798E5711D409153001A9DE7 /* MMDrawerBarButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMDrawerBarButtonItem.h; sourceTree = "<group>"; };
+		D798E5721D409153001A9DE7 /* MMDrawerBarButtonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMDrawerBarButtonItem.m; sourceTree = "<group>"; };
+		D798E5731D409153001A9DE7 /* MMDrawerController+Subclass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MMDrawerController+Subclass.h"; sourceTree = "<group>"; };
+		D798E5741D409153001A9DE7 /* MMDrawerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMDrawerController.h; sourceTree = "<group>"; };
+		D798E5751D409153001A9DE7 /* MMDrawerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMDrawerController.m; sourceTree = "<group>"; };
+		D798E5761D409153001A9DE7 /* MMDrawerVisualState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMDrawerVisualState.h; sourceTree = "<group>"; };
+		D798E5771D409153001A9DE7 /* MMDrawerVisualState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMDrawerVisualState.m; sourceTree = "<group>"; };
+		D798E5781D409153001A9DE7 /* UIViewController+MMDrawerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+MMDrawerController.h"; sourceTree = "<group>"; };
+		D798E5791D409153001A9DE7 /* UIViewController+MMDrawerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+MMDrawerController.m"; sourceTree = "<group>"; };
+		D798E5861D4091B2001A9DE7 /* FGTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FGTabBarController.h; sourceTree = "<group>"; };
+		D798E5871D4091B2001A9DE7 /* FGTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FGTabBarController.m; sourceTree = "<group>"; };
+		D798E58A1D409294001A9DE7 /* UIViewController+Navigation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Navigation.h"; sourceTree = "<group>"; };
+		D798E58B1D409294001A9DE7 /* UIViewController+Navigation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Navigation.m"; sourceTree = "<group>"; };
+		D798E58D1D4093C2001A9DE7 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		D798E58E1D4093C2001A9DE7 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		D798E5901D409499001A9DE7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D798E5341D40904A001A9DE7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D798E52E1D40904A001A9DE7 = {
+			isa = PBXGroup;
+			children = (
+				D798E5391D40904B001A9DE7 /* FGDrawerTabBarController */,
+				D798E5381D40904A001A9DE7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D798E5381D40904A001A9DE7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D798E5371D40904A001A9DE7 /* FGDrawerTabBarController.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D798E5391D40904B001A9DE7 /* FGDrawerTabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				D798E5641D409153001A9DE7 /* MainViewControllers */,
+				D798E5891D409294001A9DE7 /* Category */,
+				D798E56F1D409153001A9DE7 /* Third */,
+				D798E53D1D40904B001A9DE7 /* AppDelegate.h */,
+				D798E53E1D40904B001A9DE7 /* AppDelegate.m */,
+				D798E5901D409499001A9DE7 /* Assets.xcassets */,
+				D798E5401D40904B001A9DE7 /* ViewController.h */,
+				D798E5411D40904B001A9DE7 /* ViewController.m */,
+				D798E5431D40904B001A9DE7 /* Main.storyboard */,
+				D798E54B1D40904B001A9DE7 /* LaunchScreen.storyboard */,
+				D798E54E1D40904B001A9DE7 /* Info.plist */,
+				D798E5461D40904B001A9DE7 /* FGDrawerTabBarController.xcdatamodeld */,
+				D798E53A1D40904B001A9DE7 /* Supporting Files */,
+			);
+			path = FGDrawerTabBarController;
+			sourceTree = "<group>";
+		};
+		D798E53A1D40904B001A9DE7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D798E53B1D40904B001A9DE7 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D798E5641D409153001A9DE7 /* MainViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				D798E5651D409153001A9DE7 /* CommunityViewController.h */,
+				D798E5661D409153001A9DE7 /* CommunityViewController.m */,
+				D798E5671D409153001A9DE7 /* ContactViewController.h */,
+				D798E5681D409153001A9DE7 /* ContactViewController.m */,
+				D798E5691D409153001A9DE7 /* HomeViewController.h */,
+				D798E56A1D409153001A9DE7 /* HomeViewController.m */,
+				D798E56B1D409153001A9DE7 /* LeftViewController.h */,
+				D798E56C1D409153001A9DE7 /* LeftViewController.m */,
+				D798E58D1D4093C2001A9DE7 /* DetailViewController.h */,
+				D798E58E1D4093C2001A9DE7 /* DetailViewController.m */,
+				D798E56D1D409153001A9DE7 /* SettingViewController.h */,
+				D798E56E1D409153001A9DE7 /* SettingViewController.m */,
+			);
+			path = MainViewControllers;
+			sourceTree = "<group>";
+		};
+		D798E56F1D409153001A9DE7 /* Third */ = {
+			isa = PBXGroup;
+			children = (
+				D798E5701D409153001A9DE7 /* MMDrawerController */,
+				D798E5861D4091B2001A9DE7 /* FGTabBarController.h */,
+				D798E5871D4091B2001A9DE7 /* FGTabBarController.m */,
+			);
+			path = Third;
+			sourceTree = "<group>";
+		};
+		D798E5701D409153001A9DE7 /* MMDrawerController */ = {
+			isa = PBXGroup;
+			children = (
+				D798E5711D409153001A9DE7 /* MMDrawerBarButtonItem.h */,
+				D798E5721D409153001A9DE7 /* MMDrawerBarButtonItem.m */,
+				D798E5731D409153001A9DE7 /* MMDrawerController+Subclass.h */,
+				D798E5741D409153001A9DE7 /* MMDrawerController.h */,
+				D798E5751D409153001A9DE7 /* MMDrawerController.m */,
+				D798E5761D409153001A9DE7 /* MMDrawerVisualState.h */,
+				D798E5771D409153001A9DE7 /* MMDrawerVisualState.m */,
+				D798E5781D409153001A9DE7 /* UIViewController+MMDrawerController.h */,
+				D798E5791D409153001A9DE7 /* UIViewController+MMDrawerController.m */,
+			);
+			path = MMDrawerController;
+			sourceTree = "<group>";
+		};
+		D798E5891D409294001A9DE7 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				D798E58A1D409294001A9DE7 /* UIViewController+Navigation.h */,
+				D798E58B1D409294001A9DE7 /* UIViewController+Navigation.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D798E5361D40904A001A9DE7 /* FGDrawerTabBarController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D798E5511D40904B001A9DE7 /* Build configuration list for PBXNativeTarget "FGDrawerTabBarController" */;
+			buildPhases = (
+				D798E5331D40904A001A9DE7 /* Sources */,
+				D798E5341D40904A001A9DE7 /* Frameworks */,
+				D798E5351D40904A001A9DE7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FGDrawerTabBarController;
+			productName = FGDrawerTabBarController;
+			productReference = D798E5371D40904A001A9DE7 /* FGDrawerTabBarController.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D798E52F1D40904A001A9DE7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = topsci;
+				TargetAttributes = {
+					D798E5361D40904A001A9DE7 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = D798E5321D40904A001A9DE7 /* Build configuration list for PBXProject "FGDrawerTabBarController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D798E52E1D40904A001A9DE7;
+			productRefGroup = D798E5381D40904A001A9DE7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D798E5361D40904A001A9DE7 /* FGDrawerTabBarController */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D798E5351D40904A001A9DE7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D798E54D1D40904B001A9DE7 /* LaunchScreen.storyboard in Resources */,
+				D798E5911D409499001A9DE7 /* Assets.xcassets in Resources */,
+				D798E5451D40904B001A9DE7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D798E5331D40904A001A9DE7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D798E5881D4091B2001A9DE7 /* FGTabBarController.m in Sources */,
+				D798E5811D409153001A9DE7 /* MMDrawerVisualState.m in Sources */,
+				D798E5421D40904B001A9DE7 /* ViewController.m in Sources */,
+				D798E58F1D4093C2001A9DE7 /* DetailViewController.m in Sources */,
+				D798E57D1D409153001A9DE7 /* LeftViewController.m in Sources */,
+				D798E57B1D409153001A9DE7 /* ContactViewController.m in Sources */,
+				D798E5801D409153001A9DE7 /* MMDrawerController.m in Sources */,
+				D798E58C1D409294001A9DE7 /* UIViewController+Navigation.m in Sources */,
+				D798E53F1D40904B001A9DE7 /* AppDelegate.m in Sources */,
+				D798E57A1D409153001A9DE7 /* CommunityViewController.m in Sources */,
+				D798E57E1D409153001A9DE7 /* SettingViewController.m in Sources */,
+				D798E53C1D40904B001A9DE7 /* main.m in Sources */,
+				D798E5821D409153001A9DE7 /* UIViewController+MMDrawerController.m in Sources */,
+				D798E57F1D409153001A9DE7 /* MMDrawerBarButtonItem.m in Sources */,
+				D798E57C1D409153001A9DE7 /* HomeViewController.m in Sources */,
+				D798E5481D40904B001A9DE7 /* FGDrawerTabBarController.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D798E5431D40904B001A9DE7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D798E5441D40904B001A9DE7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D798E54B1D40904B001A9DE7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D798E54C1D40904B001A9DE7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D798E54F1D40904B001A9DE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D798E5501D40904B001A9DE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D798E5521D40904B001A9DE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FGDrawerTabBarController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wangguigui.FGDrawerTabBarController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D798E5531D40904B001A9DE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FGDrawerTabBarController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wangguigui.FGDrawerTabBarController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D798E5321D40904A001A9DE7 /* Build configuration list for PBXProject "FGDrawerTabBarController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D798E54F1D40904B001A9DE7 /* Debug */,
+				D798E5501D40904B001A9DE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D798E5511D40904B001A9DE7 /* Build configuration list for PBXNativeTarget "FGDrawerTabBarController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D798E5521D40904B001A9DE7 /* Debug */,
+				D798E5531D40904B001A9DE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D798E5461D40904B001A9DE7 /* FGDrawerTabBarController.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D798E5471D40904B001A9DE7 /* FGDrawerTabBarController.xcdatamodel */,
+			);
+			currentVersion = D798E5471D40904B001A9DE7 /* FGDrawerTabBarController.xcdatamodel */;
+			path = FGDrawerTabBarController.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D798E52F1D40904A001A9DE7 /* Project object */;
+}
